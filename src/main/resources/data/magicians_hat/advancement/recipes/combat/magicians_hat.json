@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:bundle"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "magicians_hat:magicians_hat"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_the_recipe",
+			"has_bundle"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"magicians_hat:magicians_hat"
+		]
+	}
+}

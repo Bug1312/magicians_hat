@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		{
+			"item": "minecraft:black_dye"
+		},
+		{
+			"item": "minecraft:bundle"
+		},
+		{
+			"item": "minecraft:leather_helmet"
+		}
+	],
+	"result": {
+		"id": "magicians_hat:magicians_hat",
+		"count": 1
+	}
+}

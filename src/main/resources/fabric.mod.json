@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "magicians_hat",
+	"version": "${version}",
+	"name": "Magician's Hat",
+	"description": "Store and expel items from this magical hat! Place items down and use a stick as a wand to summon items from thin air!",
+	"authors": [
+		"Bug1312",
+		"ranafangirl"
+	],
+	"contact": {
+		"sources": "https://github.com/bug1312/magicians_hat"
+	},
+	"license": "MIT",
+	"icon": "assets/magicians_hat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.bug1312.magicians_hat.MagiciansHat"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21-",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

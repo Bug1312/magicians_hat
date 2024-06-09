@@ -1,0 +1,14 @@
+{
+	"item.magicians_hat.appear":{
+		"subtitle":"subtitles.magicians_hat.item.magicians_hat.appear",
+		"sounds":[
+			"magicians_hat:magic"
+		]
+	},
+	"item.magicians_hat.disappear":{
+		"subtitle":"subtitles.magicians_hat.item.magicians_hat.disappear",
+		"sounds":[
+			"magicians_hat:magic"
+		]
+	}
+}
